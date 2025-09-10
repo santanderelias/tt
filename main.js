@@ -1,4 +1,3 @@
-console.log('ready!');
 const infoDiv = document.querySelector('.info');
 const button = document.querySelector('.butonera button');
 function updateToolbarStatusText() {
