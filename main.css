@@ -8,9 +8,10 @@ body {
     background-color: #464545;
     padding: 10px;
     border-bottom: 1px solid #686868;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
+    display: flex;
+      flex-direction: row;
+     flex-wrap: nowrap;
+      justify-content: flex-end;
+     align-items: normal;
+    align-content: normal;
 }
