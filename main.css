@@ -4,6 +4,11 @@ body {
     background-color: black;
     color: white;
 }
+.bottomStuff {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 #toolbar {
     background-color: #464545;
     padding: 10px;
