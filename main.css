@@ -2,3 +2,19 @@ body {
     margin: 0;
     padding: 0;
 }
+#toolbar {
+    background-color: #464545;
+    padding: 10px;
+    border-bottom: 1px solid #686868;
+}
+#toolbar button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+#toolbar button:hover {
+    background-color: #0056b3;
+}
