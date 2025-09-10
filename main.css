@@ -12,14 +12,3 @@ body {
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
 }
-#toolbar button {
-    margin-right: 5px;
-    padding: 5px 10px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-}
-#toolbar button:hover {
-    background-color: #0056b3;
-}
