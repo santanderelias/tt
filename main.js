@@ -1,6 +1,6 @@
 console.log('ready!');
 const infoDiv = document.querySelector('.info');
-function updateState() {
+new function updateState() {
     infoDiv.textContent = 'Ready!';
     console.log('State updated');
 }
