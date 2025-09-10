@@ -5,7 +5,7 @@ function updateText() {
     infoDiv.textContent = 'Ready!';
     console.log('Text updated');
 };
-const updateState = () => {
+function updateState(){
     console.log('State updated');
 };
 button.addEventListener('click', updateState);
