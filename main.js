@@ -6,6 +6,7 @@ function updateText() {
     console.log('Text updated');
 };
 function updateState(){
+    updateText();
     console.log('State updated');
 };
 button.addEventListener('click', updateState);
